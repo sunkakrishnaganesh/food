@@ -102,30 +102,31 @@
                     </div>
                 </div>
                 <div class="donation-form">
-                        <form action="https://formsubmit.co/ganesh.sunka2004@gmail.com" method="POST">
-                            <input type="text" name="name" placeholder="Full Name" required>
-                            <input type="email" name="email" placeholder="Email" required>
-                            <input type="text" name="phone" placeholder="Phone Number" required>
-                            <input type="text" name="address" placeholder="Pickup Address" required>
-                            <select name="food_type" required>
-                                <option value="">Select Food Type</option>
-                                <option value="non-perishable">Non-perishable items</option>
-                                <option value="fresh-produce">Fresh produce</option>
-                                <option value="prepared-meals">Prepared meals</option>
-                                <option value="bakery">Bakery items</option>
-                                <option value="other">Other</option>
-                            </select>
-                            <input type="text" name="quantity" placeholder="Quantity (e.g., 5 bags, 10 lbs)" required>
-                            <input type="text" name="best_before" placeholder="Best Before (Date/Time)" required>
-                            <textarea name="instructions" placeholder="Special Instructions (optional)"></textarea>
-                        
-                            <!-- Formsubmit configs -->
-                            <input type="hidden" name="_captcha" value="false">
-                            <input type="hidden" name="_template" value="box">
-                            <input type="hidden" name="_next" value="https://ganeshsunka.github.io/food-donation/thankyou.html">
-                        
-                            <button type="submit" class="btn">Donate Food</button>
-                        </form>  
+                    <form action="https://formsubmit.co/ganesh.sunka2004@gmail.com" method="POST">
+                        <input type="text" name="name" placeholder="Full Name" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <input type="text" name="phone" placeholder="Phone Number" required>
+                        <input type="text" name="address" placeholder="Pickup Address" required>
+                        <select name="food_type" required>
+                            <option value="">Select Food Type</option>
+                            <option value="non-perishable">Non-perishable items</option>
+                            <option value="fresh-produce">Fresh produce</option>
+                            <option value="prepared-meals">Prepared meals</option>
+                            <option value="bakery">Bakery items</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <input type="text" name="quantity" placeholder="Quantity (e.g., 5 bags, 10 lbs)" required>
+                        <input type="text" name="best_before" placeholder="Best Before (Date/Time)" required>
+                        <textarea name="instructions" placeholder="Special Instructions (optional)"></textarea>
+                    
+                        <!-- Formsubmit Settings -->
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_template" value="box">
+                        <input type="hidden" name="_next" value="https://ganeshsunka.github.io/food-donation/thankyou.html">
+                    
+                        <button type="submit" class="btn">Donate Food</button>
+                    </form>
+                    
                     <div id="responseMessage" style="display:none;"></div>
                 </div>
             </div>
