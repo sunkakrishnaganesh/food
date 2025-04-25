@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FeedBridge - Donate Food, Fight Hunger</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">FeedBridge</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#donate">Donate</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Bridging the Gap Between Surplus and Need</h1>
+                <p>Join us in the fight against hunger by donating excess food to those who need it most.</p>
+                <a href="#donate" class="btn">Donate Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About FeedBridge</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>FeedBridge is a nonprofit organization dedicated to reducing food waste and hunger in our community. We connect individuals and businesses with surplus food to local shelters, food banks, and families in need.</p>
+                    <p>Founded in 2023, we've already redistributed over 50,000 meals to those facing food insecurity. Our network of volunteers ensures that good food doesn't go to waste while neighbors go hungry.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-number">10,000+</span>
+                            <span class="stat-label">Meals Donated</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Donors</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Communities Served</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff" alt="Volunteers packing food">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery-section">
+        <div class="container">
+            <h2>Our Impact in Photos</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c" alt="Fresh vegetables donation">
+                    <div class="gallery-caption">Fresh Produce Donations</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38" alt="Prepared meals">
+                    <div class="gallery-caption">Prepared Meals Distribution</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b" alt="Volunteers working">
+                    <div class="gallery-caption">Dedicated Volunteers</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="donate" class="donation-section">
+        <div class="container">
+            <h2>Make a Food Donation</h2>
+            <div class="donation-content">
+                <div class="donation-info">
+                    <h3>What Can You Donate?</h3>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Non-perishable food items</li>
+                        <li><i class="fas fa-check-circle"></i> Fresh produce</li>
+                        <li><i class="fas fa-check-circle"></i> Packaged meals</li>
+                        <li><i class="fas fa-check-circle"></i> Bakery items</li>
+                        <li><i class="fas fa-check-circle"></i> Canned goods</li>
+                    </ul>
+                    <div class="donation-tips">
+                        <h4>Donation Guidelines:</h4>
+                        <p>• Food should be unopened and within expiry date</p>
+                        <p>• Perishable items should be properly refrigerated</p>
+                        <p>• Please package items securely for transport</p>
+                    </div>
+                </div>
+                <div class="donation-form">
+                        <form action="https://formsubmit.co/ganesh.sunka2004@gmail.com" method="POST">
+                            <input type="text" name="name" placeholder="Full Name" required>
+                            <input type="email" name="email" placeholder="Email" required>
+                            <input type="text" name="phone" placeholder="Phone Number" required>
+                            <input type="text" name="address" placeholder="Pickup Address" required>
+                            <select name="food_type" required>
+                                <option value="">Select Food Type</option>
+                                <option value="non-perishable">Non-perishable items</option>
+                                <option value="fresh-produce">Fresh produce</option>
+                                <option value="prepared-meals">Prepared meals</option>
+                                <option value="bakery">Bakery items</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <input type="text" name="quantity" placeholder="Quantity (e.g., 5 bags, 10 lbs)" required>
+                            <input type="text" name="best_before" placeholder="Best Before (Date/Time)" required>
+                            <textarea name="instructions" placeholder="Special Instructions (optional)"></textarea>
+                        
+                            <!-- Formsubmit configs -->
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_template" value="box">
+                            <input type="hidden" name="_next" value="https://ganeshsunka.github.io/food-donation/thankyou.html">
+                        
+                            <button type="submit" class="btn">Donate Food</button>
+                        </form>  
+                    <div id="responseMessage" style="display:none;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Helping Street, Foodville, FC 12345</p>
+                    <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+                    <p><i class="fas fa-envelope"></i> contact@feedbridge.org</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.2219901290355!2d-74.00369368400567!3d40.71312937933185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQyJzQ3LjMiTiA3NMKwMDAnMTMuNiJX!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">FeedBridge</div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#donate">Donate</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+                <div class="footer-copyright">
+                    &copy; 2023 FeedBridge. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        
+    </script>
+</body>
+</html>
